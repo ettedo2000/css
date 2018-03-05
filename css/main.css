@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+}
+
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 18px;
+}
+
+
+.container {
+    height: 100%;
+}
+
+.container-basic{
+    margin-top: -200px;
+}
+.inside-div{
+    border-style: solid;
+    border-width: thin;
+    margin: 15px 35px 15px 35px;
+}
+
+.header-div {
+    max-height: 200px;
+}
+
+
+.templateBacking{
+     background: white; /* For browsers that do not support gradients */
+     background: linear-gradient(white, lightskyblue); /* Standard syntax (must be last) */
+     width: 100%;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
+
+.mainHead{
+    background: url("../img/header_background.png");
+    height: 200px;
+    width: 100%;
+    background-size: cover !important;
+    margin: 0;
+}
+
+
+.footer-basic {
+    background-color: #ecececff;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-company-name{
+  text-align: right;
+}
