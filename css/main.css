@@ -16,28 +16,29 @@ h3{
     font-size: 18px;
 }
 
-
-.container {
-    height: 100%;
+.container{
+    margin-right: 40rem;
+    margin-left: 40rem;
 }
 
-.container-basic{
-    margin-top: -200px;
+
+.row{
+
 }
+
 .inside-div{
-    border-style: solid;
-    border-width: thin;
-    margin: 15px 35px 15px 35px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background: #f9f9f9fe;
 }
 
 .header-div {
-    max-height: 200px;
+    height: 180px;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
-
 .templateBacking{
-     background: white; /* For browsers that do not support gradients */
-     background: linear-gradient(white, lightskyblue); /* Standard syntax (must be last) */
      width: 100%;
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -58,6 +59,7 @@ h3{
     background-color: #ecececff;
     bottom: 0;
     width: 100%;
+    display: block;
 }
 
 .footer-company-name{
