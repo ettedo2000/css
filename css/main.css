@@ -8,10 +8,11 @@ body {
 
 h1{
     font-size: 28px;
-    color: blue;
+    color: #1e90ff;
 }
 h2{
     font-size: 22px;
+    color: #0059b3;
 }
 h3{
     font-size: 18px;
@@ -32,12 +33,12 @@ h3{
     padding-bottom: 2rem;
     padding-top: 2rem;
     background: #f9f9f9fe;
+    text-align: center;
 }
 
 .header-div {
-    max-height: 150px;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    max-height: 225px;
+
 }
 
 .templateBacking{
@@ -50,7 +51,7 @@ h3{
 
 .mainHead{
     background: url("../img/header_background.png");
-    height: 200px;
+    height: 250px;
     width: 100%;
     background-size: cover !important;
     margin: 0;
@@ -67,9 +68,27 @@ h3{
   text-align: right;
 }
 
+.carousel-div{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding-left: 2rem;
+}
+
+.title-div{
+    padding-left: 4rem;
+}
+
+.buttoncolor{
+    background: #ff6600ff;
+    color: #ffffff;
+ }
+
+.image-align{
+    align-content: center;
+}
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1550px) {
     h1{
         font-size: 24px;
         color: blue;
@@ -84,19 +103,268 @@ h3{
 
     .move_div{
         width: 100%;
+        text-align: center;
     }
 
     .footer-company-name{
-        text-align: left;
+        text-align: center;
         font-size: x-small;
     }
 
     .mainHead{
-        height: 400px;
+
     }
 
     .header-div {
-        max-height: 350px;
+        margin-top: 2rem;
+        margin-left: 8rem;
+    }
+
+    .title-div{
+        float: left;
+        width: 60%;
+        padding: 0;
+    }
+
+    .carousel-div{
+        float: left;
+        margin-left: 1rem;
+
+        width: 20%;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+    h1{
+        font-size: 24px;
+        color: blue;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 14px;
+    }
+
+
+    .move_div{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-company-name{
+        text-align: center;
+        font-size: x-small;
+    }
+
+    .mainHead{
 
     }
+
+    .header-div {
+        margin-top: 6rem;
+        margin-left: 3rem;
+    }
+
+    .title-div{
+        float: left;
+        width: 60%;
+        padding: 0;
+    }
+
+    .carousel-div{
+        float: left;
+        margin-left: 5rem;
+        width: 22%;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    h1{
+        font-size: 24px;
+        color: blue;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 14px;
+    }
+
+
+    .move_div{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-company-name{
+        text-align: center;
+        font-size: x-small;
+    }
+
+    .mainHead{
+
+    }
+
+    .header-div {
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .title-div{
+        float: left;
+        width: 60%;
+        padding: 0;
+    }
+
+    .carousel-div{
+        float: left;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        width: 33%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    h1{
+        font-size: 22px;
+        color: blue;
+    }
+    h2{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 13px;
+    }
+
+
+    .move_div{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-company-name{
+        text-align: center;
+        font-size: x-small;
+    }
+
+    .mainHead{
+
+    }
+
+    .header-div {
+        padding-top: 6rem;
+        padding-left: 3rem;
+    }
+
+    .title-div{
+        float: left;
+        width: 65%;
+        padding: 0;
+    }
+
+    .carousel-div{
+        float: left;
+        padding-left: 2rem;
+        margin-top: 4rem;
+        width: 35%;
+    }
+
+}
+
+@media only screen and (max-width: 415px) {
+    h1{
+        font-size: 22px;
+        color: blue;
+    }
+    h2{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 13px;
+    }
+
+
+    .move_div{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-company-name{
+        text-align: center;
+        font-size: x-small;
+    }
+
+    .mainHead{
+
+    }
+
+    .header-div {
+        padding-top: 5rem;
+        padding-left: 2rem;
+    }
+
+    .title-div{
+        float: left;
+        width: 60%;
+        padding: 0;
+    }
+
+    .carousel-div{
+        float: left;
+        padding-left: 1rem;
+        margin-top: 3rem;
+        width: 32%;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    h1{
+        font-size: 20px;
+        color: blue;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 12px;
+    }
+
+
+    .move_div{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-company-name{
+        text-align: center;
+        font-size: x-small;
+    }
+
+    .mainHead{
+
+    }
+
+    .header-div {
+        padding-top: 5rem;
+        padding-left: 1rem;
+    }
+
+    .title-div{
+        float: left;
+        width: 60%;
+        padding: 0;
+    }
+
+    .carousel-div{
+        float: left;
+        padding-left: 1rem;
+        margin-top: 5rem;
+        width: 32%;
+    }
+
 }
