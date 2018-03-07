@@ -88,7 +88,7 @@ h3{
 }
 
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1440px) {
     h1{
         font-size: 24px;
         color: blue;
@@ -98,17 +98,6 @@ h3{
     }
     h3{
         font-size: 14px;
-    }
-
-
-    .move_div{
-        width: 100%;
-        text-align: center;
-    }
-
-    .footer-company-name{
-        text-align: center;
-        font-size: x-small;
     }
 
     .mainHead{
@@ -129,7 +118,6 @@ h3{
     .carousel-div{
         float: left;
         margin-left: 1rem;
-
         width: 20%;
     }
 
@@ -147,16 +135,6 @@ h3{
         font-size: 14px;
     }
 
-
-    .move_div{
-        width: 100%;
-        text-align: center;
-    }
-
-    .footer-company-name{
-        text-align: center;
-        font-size: x-small;
-    }
 
     .mainHead{
 
