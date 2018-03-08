@@ -88,23 +88,68 @@ h3{
 }
 
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width:2400px){
+    p{
+        font-size: 22px;
+    }
     h1{
-        font-size: 24px;
-        color: blue;
+        font-size: 36px;
     }
     h2{
-        font-size: 18px;
+        font-size: 28px;
     }
     h3{
-        font-size: 14px;
+        font-size: 24px;
     }
 
     .mainHead{
-
+        height: 330px;
+    }
+    .header-div {
+        margin-top: 7rem;
+        margin-left: 8rem;
     }
 
+    .title-div{
+        float: left;
+        width: 60%;
+        padding: 0;
+    }
+
+    .carousel-div{
+        float: left;
+        margin-left: 1rem;
+        width: 15%;
+    }
+
+}
+
+
+@media only screen and (min-width:1800px){
     .header-div {
+        margin-top: 1.5rem;
+        margin-left: 8rem;
+    }
+
+    .title-div{
+        float: left;
+        width: 60%;
+        padding: 0;
+    }
+
+    .carousel-div{
+        float: left;
+        margin-left: 1rem;
+        width: 15%;
+    }
+
+    .footer-basic {
+
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+     .header-div {
         margin-top: 2rem;
         margin-left: 8rem;
     }
